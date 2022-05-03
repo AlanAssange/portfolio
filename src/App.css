@@ -1,0 +1,118 @@
+@font-face {
+  font-family: "OptimusPrinceps";
+  src: local("OptimusPrinceps"),
+    url("./fonts/OptimusPrinceps.ttf") format("truetype");
+  font-weight: bold;
+}
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.titles {
+  margin-top: 155px;
+  font-size: 45px;
+}
+
+.subtitles {
+  font-size: 36px;
+}
+
+/* first layer  */
+.dec-bon {
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
+.dec-chart {
+  border: 1px solid #fc7e00;
+  font-size: 26px;
+  text-align: left;
+  margin-top: 100px;
+  margin-left: 555px;
+  margin-right: 555px;
+  padding: 25px;
+}
+
+.overtitles {
+  font-size: 25px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+.App {
+  display: block;
+  margin: 0;
+  background-color: black;
+  text-align: center;
+}
+
+.suggest {
+  margin-right: 180px;
+}
+
+.font-darksus {
+  color: white;
+  font-family: "OptimusPrinceps";
+}
+
+/* second layer */
+
+.wer-img {
+  width: 435px;
+}
+
+.wer-hp {
+  font-size: 20px;
+}
+
+/* third layer */
+
+/* buttons  */
+
+a {
+  background: linear-gradient(to bottom, #000000 5%, #000000 100%);
+  background-color: #000000;
+  border-radius: 2px;
+  border: 1px solid #fc7e00;
+  margin: 10px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Courier New;
+  font-size: 23px;
+  padding: 15px 35px;
+  text-decoration: none;
+  font-family: "OptimusPrinceps";
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  padding-left: 730px;
+  padding-right: 730px;
+}
+
+.darkbutton {
+  background: linear-gradient(to bottom, #000000 5%, #000000 100%);
+  background-color: #000000;
+  border-radius: 2px;
+  border: 1px solid #fc7e00;
+  margin: 10px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Courier New;
+  font-size: 23px;
+  padding: 15px 35px;
+  text-decoration: none;
+  font-family: "OptimusPrinceps";
+}
+.darkbutton:hover {
+  background: linear-gradient(to bottom, #000000 5%, #000000 100%);
+  background-color: #000000;
+}
+.darkbutton:active {
+  position: relative;
+  top: 1px;
+}
