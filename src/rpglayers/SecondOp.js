@@ -13,10 +13,10 @@ export const SecondOp = () => {
       <img className="wer-img" src={werewolf} alt="pixeled werewolf" />
       <p className="wer-hp">Werewolf HP: 5/5</p>
       <div className="buttons">
-        <NavLink to="/rpgending/three" className="darkbutton">
+        <NavLink to="/portfolio/rpgending/three" className="darkbutton">
           <p>ATTACK</p>
         </NavLink>
-        <NavLink to="/" className="darkbutton">
+        <NavLink to="/portfolio" className="darkbutton">
           <p>RUN</p>
         </NavLink>
       </div>

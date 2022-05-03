@@ -8,10 +8,10 @@ import { ThirdOp } from "../rpglayers/ThirdOp";
 
 export const AppRouter = () => {
   const routes = useRoutes([
-    { path: "/", element: <Intro /> },
-    { path: "/rpgending", element: <FirstOp /> },
-    { path: "/rpgending/two", element: <SecondOp /> },
-    { path: "/rpgending/three", element: <ThirdOp /> },
+    { path: "/portfolio", element: <Intro /> },
+    { path: "/portfolio/rpgending", element: <FirstOp /> },
+    { path: "/portfolio/rpgending/two", element: <SecondOp /> },
+    { path: "/portfolio/rpgending/three", element: <ThirdOp /> },
     { path: "*", element: <NotFound /> },
   ]);
 

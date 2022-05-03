@@ -15,7 +15,7 @@ export const ThirdOp = () => {
       <img className="wer-img" src={werewolf} alt="pixeled werewolf" />
       <p className="wer-hp">Werewolf HP: 5/5</p>
       <div className="buttons">
-        <NavLink to="/" className="darkbutton">
+        <NavLink to="/portfolio" className="darkbutton">
           <p>Home</p>
         </NavLink>
       </div>

@@ -10,10 +10,10 @@ export const Intro = () => {
       <img src={bonfire} alt="bonfire" />
       <p className="overtitles">-do you want to see my portfolio?-</p>
       <div className="buttons">
-        <NavLink to="/" class="darkbutton">
+        <NavLink to="/portfolio" class="darkbutton">
           <p>yes, im interested!</p>
         </NavLink>
-        <NavLink to="/rpgending">
+        <NavLink to="/portfolio/rpgending">
           <p>Definitely not what i came for</p>
         </NavLink>
       </div>

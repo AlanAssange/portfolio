@@ -15,13 +15,13 @@ export const FirstOp = () => {
 
       <img className="dec-bon" src={bonfire} alt="bonfire" />
       <div className="buttons">
-        <NavLink to="/rpgending/two" className="darkbutton">
+        <NavLink to="/portfolio/rpgending/two" className="darkbutton">
           <p>Embrace destiny</p>
         </NavLink>
-        <NavLink to="/" className="darkbutton">
+        <NavLink to="/portfolio" className="darkbutton">
           <p>Go back to the bonfire</p>
         </NavLink>
-        <NavLink to="/" className="darkbutton">
+        <NavLink to="/portfolio" className="darkbutton">
           <p>Call for help</p>
         </NavLink>
       </div>
