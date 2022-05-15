@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import bonfire from "../imgs/bonfire.gif";
 
 export const Intro = () => {
@@ -10,12 +10,12 @@ export const Intro = () => {
       <img src={bonfire} alt="bonfire" />
       <p className="overtitles">-do you want to see my portfolio?-</p>
       <div className="buttons">
-        <NavLink to="/portfolio" class="darkbutton">
-          <p>yes, im interested!</p>
-        </NavLink>
-        <NavLink to="/portfolio/rpgending">
-          <p>Definitely not what i came for</p>
-        </NavLink>
+        <Link to="/portfolio/intro">
+          <button class="darkbutton">yes, im interested!</button>
+        </Link>
+        <Link to="/portfolio/rpgending">
+          <button class="darkbutton">Definitely not what i came for</button>
+        </Link>
       </div>
       <p class="suggest">(Suggestion: Stay close to the bonfire)</p>
     </div>

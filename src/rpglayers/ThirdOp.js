@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import werewolf from "../imgs/werewolf.png";
 
 export const ThirdOp = () => {
@@ -15,9 +15,9 @@ export const ThirdOp = () => {
       <img className="wer-img" src={werewolf} alt="pixeled werewolf" />
       <p className="wer-hp">Werewolf HP: 5/5</p>
       <div className="buttons">
-        <NavLink to="/portfolio" className="darkbutton">
-          <p>Home</p>
-        </NavLink>
+        <Link to="/portfolio">
+          <p className="darkbutton">Home</p>
+        </Link>
       </div>
     </div>
   );

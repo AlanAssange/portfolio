@@ -1,0 +1,41 @@
+* {
+  color: white;
+  font-family: "OptimusPrinceps";
+}
+
+.flex-nav {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+/* icons */
+
+.prespic {
+  width: 55px;
+}
+
+.allicons {
+  width: 55px;
+  margin-top: 790px;
+  cursor: pointer;
+}
+
+.flexicons {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 550px;
+  padding-right: 550px;
+}
+
+.param {
+  margin-top: 0;
+}
+
+/* modal */
+
+.modal-header {
+  cursor: move;
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import bonfire from "../imgs/bonfire.gif";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export const FirstOp = () => {
   return (
@@ -15,15 +15,15 @@ export const FirstOp = () => {
 
       <img className="dec-bon" src={bonfire} alt="bonfire" />
       <div className="buttons">
-        <NavLink to="/portfolio/rpgending/two" className="darkbutton">
-          <p>Embrace destiny</p>
-        </NavLink>
-        <NavLink to="/portfolio" className="darkbutton">
-          <p>Go back to the bonfire</p>
-        </NavLink>
-        <NavLink to="/portfolio" className="darkbutton">
-          <p>Call for help</p>
-        </NavLink>
+        <Link to="/portfolio/rpgending/two">
+          <p className="darkbutton">Embrace destiny</p>
+        </Link>
+        <Link to="/portfolio">
+          <p className="darkbutton">Go back to the bonfire</p>
+        </Link>
+        <Link to="/portfolio">
+          <p className="darkbutton">Call for help</p>
+        </Link>
       </div>
     </div>
   );
