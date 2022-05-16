@@ -5,13 +5,16 @@ import { Link } from "react-router-dom";
 export const FirstOp = () => {
   return (
     <div className="font-darksus">
-      <h2 className="dec-chart">
-        You take a half turn, but you dont know exactly where you are going.
-        With the bonfire behind and no lead of where home is, you start to
-        realize something. There is a very loud noise coming in your direction.
-        <br />
-        It seems familiar. Like a dog. Maybe.
-      </h2>
+      <div className="decorigin">
+        <h2 className="dec-chart">
+          You take a half turn, but you dont know exactly where you are going.
+          With the bonfire behind and no lead of where home is, you start to
+          realize something. There is a very loud noise coming in your
+          direction.
+          <br />
+          It seems familiar. Like a dog. Maybe.
+        </h2>
+      </div>
 
       <img className="dec-bon" src={bonfire} alt="bonfire" />
       <div className="buttons">

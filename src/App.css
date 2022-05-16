@@ -11,7 +11,7 @@ body {
 }
 
 .titles {
-  margin-top: 155px;
+  margin-top: 175px;
   font-size: 45px;
 }
 
@@ -25,14 +25,17 @@ body {
   margin-bottom: 25px;
 }
 
+.decorigin {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+
 .dec-chart {
-  width: 450px;
-  left: -60px;
   border: 1px solid #fc7e00;
-  font-size: 26px;
-  text-align: center;
-  align-items: center;
   padding: 25px;
+  width: 30em;
+  font-size: 26px;
 }
 
 .overtitles {
@@ -54,12 +57,14 @@ body {
 
 .font-darksus {
   color: white;
+  margin-top: 115px;
   font-family: "OptimusPrinceps";
 }
 
 /* second layer */
 
 .wer-img {
+  margin-top: 30px;
   width: 435px;
 }
 
@@ -102,6 +107,18 @@ a {
   padding: 25px;
   text-decoration: none;
   font-family: "OptimusPrinceps";
+}
+
+@media (max-width: 500px) {
+  .darkbutton {
+    width: 350px;
+  }
+  .suggest {
+    font-size: 15px;
+    margin-right: 0px;
+    margin-left: 55px;
+    text-align: left;
+  }
 }
 .darkbutton:hover {
   background: linear-gradient(to bottom, #000000 5%, #000000 100%);
