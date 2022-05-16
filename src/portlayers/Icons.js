@@ -8,6 +8,9 @@ import projects from "../imgs/projects.png";
 import edu from "../imgs/education.png";
 import styled from "styled-components";
 import prespic from "../imgs/prespic.png";
+import linkedin from "../imgs/linkedin.png";
+import github from "../imgs/github.png";
+import gmail from "../imgs/gmail.png";
 import "./portfolio.css";
 
 export const Icons = () => {
@@ -87,7 +90,7 @@ export const Icons = () => {
       >
         <Contenido>
           <h1>My journey so far</h1>
-          <img src={prespic} alt="my face" />
+          <img className="prespic" src={prespic} alt="my face" />
           <p>
             Hey! <br />
             <br /> Im Alan, a 21 years old front-end developer from Buenos
@@ -98,7 +101,12 @@ export const Icons = () => {
             enjoyer, i made this portfolio to share my creativity, passions and
             knowledge. <br /> Hope you like it!
           </p>
-          <Boton onClick={() => cambiarEstadoModal1(!estadoModal1)}>❤❤❤</Boton>
+          <button
+            className="buttonmodal"
+            onClick={() => cambiarEstadoModal1(!estadoModal1)}
+          >
+            ❤❤❤
+          </button>
         </Contenido>
       </ModalSt>
       <ModalSt
@@ -113,7 +121,12 @@ export const Icons = () => {
         <Contenido>
           <h1>a</h1>
           <p>a</p>
-          <Boton onClick={() => cambiarEstadoModal2(!estadoModal2)}>❤❤❤</Boton>
+          <button
+            className="buttonmodal"
+            onClick={() => cambiarEstadoModal2(!estadoModal2)}
+          >
+            Done
+          </button>
         </Contenido>
       </ModalSt>
       <ModalSt
@@ -128,7 +141,12 @@ export const Icons = () => {
         <Contenido>
           <h1>a</h1>
           <p>a</p>
-          <Boton onClick={() => cambiarEstadoModal3(!estadoModal3)}>❤❤❤</Boton>
+          <button
+            className="buttonmodal"
+            onClick={() => cambiarEstadoModal3(!estadoModal3)}
+          >
+            ❤❤❤
+          </button>
         </Contenido>
       </ModalSt>
       <ModalSt
@@ -143,7 +161,12 @@ export const Icons = () => {
         <Contenido>
           <h1>a</h1>
           <p>Ra.</p>
-          <Boton onClick={() => cambiarEstadoModal4(!estadoModal4)}>❤❤❤</Boton>
+          <button
+            className="buttonmodal"
+            onClick={() => cambiarEstadoModal4(!estadoModal4)}
+          >
+            ❤❤❤
+          </button>
         </Contenido>
       </ModalSt>
       <ModalSt
@@ -156,9 +179,38 @@ export const Icons = () => {
         padding={"20px"}
       >
         <Contenido>
-          <h1>a</h1>
-          <p>a</p>
-          <Boton onClick={() => cambiarEstadoModal5(!estadoModal5)}>❤❤❤</Boton>
+          <div className="portcontact">
+            <div>
+              <img
+                className="contacticons"
+                src={linkedin}
+                alt="pixeled icon // about me"
+              />
+              <p>Linkedin</p>
+            </div>
+            <div>
+              <img
+                className="contacticons"
+                src={gmail}
+                alt="pixeled icon // about me"
+              />
+              <p>Gmail</p>
+            </div>
+            <div>
+              <img
+                className="contacticons"
+                src={github}
+                alt="pixeled icon // about me"
+              />
+              <p>Github</p>
+            </div>
+          </div>
+          <button
+            className="buttonmodal"
+            onClick={() => cambiarEstadoModal5(!estadoModal5)}
+          >
+            ❤❤❤
+          </button>
         </Contenido>
       </ModalSt>
       <ModalSt
@@ -178,28 +230,17 @@ export const Icons = () => {
             the front-end stack before moving on to newer developing languages.
             Thank you for stopping by!
           </p>
-          <Boton onClick={() => cambiarEstadoModal6(!estadoModal6)}>❤❤❤</Boton>
+          <button
+            className="buttonmodal"
+            onClick={() => cambiarEstadoModal6(!estadoModal6)}
+          >
+            Done
+          </button>
         </Contenido>
       </ModalSt>
     </div>
   );
 };
-
-const Boton = styled.button`
-  display: block;
-  padding: 10px 30px;
-  border-radius: 100px;
-  color: #fff;
-  border: none;
-  background: #130a01;
-  cursor: pointer;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  transition: 0.3s ease all;
-  &:hover {
-    background: #fc7e00;
-  }
-`;
 
 const Contenido = styled.div`
   display: flex;
@@ -215,10 +256,5 @@ const Contenido = styled.div`
     padding: 35px;
     margin-bottom: 20px;
     text-align: left;
-  }
-  img {
-    width: 25%;
-    vertical-align: top;
-    border-radius: 5px;
   }
 `;

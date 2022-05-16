@@ -116,7 +116,7 @@ a {
 
 @media (max-width: 550px) {
   .darkbutton {
-    width: 350px;
+    width: 320px;
   }
   .suggest {
     font-size: 15px;
@@ -125,7 +125,7 @@ a {
     text-align: left;
   }
   .titles {
-    margin-top: 10px;
+    margin-top: 25px;
   }
 
   .font-darksus {
@@ -135,5 +135,9 @@ a {
   .dec-chart {
     margin-left: 50px;
     margin-right: 50px;
+  }
+
+  .wer-img {
+    width: 350px;
   }
 }
