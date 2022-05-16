@@ -119,6 +119,9 @@ a {
     margin-left: 55px;
     text-align: left;
   }
+  .titles {
+    margin-top: 25px;
+  }
 }
 .darkbutton:hover {
   background: linear-gradient(to bottom, #000000 5%, #000000 100%);
